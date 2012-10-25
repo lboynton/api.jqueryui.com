@@ -3,6 +3,8 @@
 <xsl:import href="node_modules/grunt-jquery-content/tasks/jquery-xml/entries2html-base.xsl"/>
 <xsl:import href="notes.xsl"/>
 
+<xsl:variable name="widget-method-examples" select="false()"/>
+
 <xsl:template name="example-code">
 &lt;!doctype html&gt;
 &lt;html lang="en"&gt;
